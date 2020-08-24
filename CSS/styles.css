@@ -1,0 +1,214 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+a {
+    color: white;
+}
+
+/* --------- Side Navbar ----------- */
+
+.left-navbar {
+    background-color: #e91e63;
+    width: 17rem;
+    height: 100vh;
+    text-align: center;
+    position: fixed;
+    margin-left: -0.9375rem;
+}
+
+a:hover {
+    color: #dddddd;
+}
+
+.profile-img {
+    width: 10rem;
+    border-radius: 50%;
+    margin-top: 16rem;
+}
+
+.nav-content {
+    position: relative;
+    font-size: 1.3rem;
+    line-height: 0.5;
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.nav-item {
+    margin: 0.5rem;
+}
+
+/* --------- Intro Home ----------- */
+
+.intro {
+    position: relative;
+    text-align: left;
+    display: inline-block;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.junior-sd {
+    font-size: 1.3rem;
+}
+
+.name-marcos {
+    color: #e91e63;
+    font-weight: 700;
+}
+
+/* --------- Home Section ----------- */
+
+.home-page {
+    background-color: #eeeeee;
+    text-align: left;
+    height: 100vh;
+    padding: 19rem 0 0 18rem;
+}
+
+/* --------- Bio About Me Section ----------- */
+
+.about-me {
+    background-color: #eeeeee;
+    text-align: left;
+    height: 100vh;
+    padding: 19rem 0 0 18rem;
+}
+
+.bio {
+    font-size: 1.50rem;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+}
+
+.bio-info {
+    width: 35rem;
+}
+
+.name-bio {
+    color: #e91e63;
+}
+
+/* --------- Projects Section ----------- */
+
+.projects {
+    background-color: #eeeeee;
+    padding: 4rem 4rem 4rem 18rem;
+}
+
+.card-deck {
+    margin-right: 0;
+}
+
+.deck1 {
+    margin-bottom: 3rem;
+}
+
+.card {
+    margin: 15px;
+}
+
+.project-button {
+    margin: auto;
+    text-align: center;
+}
+
+.btn {
+    /* margin: 0 2rem; */
+    background-color: #e91e63;
+    border-color: #e91e63;
+}
+
+.btn:hover {
+    background-color: #ff4c68;
+    border-color: #ff4c68;
+}
+
+/* --------- Contact Section ----------- */
+
+.contact-me {
+    background-color: #eeeeee;
+    text-align: left;
+    height: 90vh;
+    padding: 17rem 0 0 18rem;
+}
+
+.email-button {
+    color: #e91e63;
+}
+
+.email-button:hover {
+    color: #2f7683;
+    text-decoration: none;
+}
+
+.contact-info {
+    width: 35rem;
+    font-size: 1.50rem;
+}
+
+/* --------- Footer Section ----------- */
+
+.foot{
+    background-color: #e91e63;
+    text-align: center;
+    padding: 30px 0 10px;
+}
+
+.copy {
+    margin: 0;
+    color: #eeeeee;
+    font-size: 0.8rem;
+}
+
+.footer-img {
+    margin: 0 2rem 1rem;
+}
+
+/* --------- Media Queries ----------- */
+
+/* @media (max-width: 1028px) {
+    .left-navbar {
+        
+    }
+
+    .iphone-img {
+        position: static !important;
+        transform: rotate(0) !important;
+    }
+
+    .testimonial-text {
+        font-size: 2rem !important;
+    }
+
+    .testimonial-image {
+        width: 25% !important;
+        border-radius: 100% !important;
+        margin: 20px !important;
+    }
+
+    .big-heading {
+        font-family: "Montserrat" !important;
+        font-size: 2.5rem !important;
+        line-height: 1.5 !important;
+        font-weight: 900 !important;
+    }
+
+    h2 {
+        font-family: "Montserrat" !important;
+        font-weight: bold !important;
+        font-size: 1.75rem !important;
+        line-height: 1.5 !important;
+    }
+} */
